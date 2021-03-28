@@ -20,4 +20,4 @@ sr.reveal('.mybtn', {
   duration: 1000,
   distance: '100px',
   delay:500,
-});
+})
