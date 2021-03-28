@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+body,html{
+  font-family: 'Nunito Sans', sans-serif;
+}
+.logo-img{
+  height: 100px;
+  width: 120px;
+  margin-left: 10px;
+}
+.bgimg{
+  background-image: url('computr.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+.section-1{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 700px;
+}
+button{
+  background-color: white !important;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0.1px 0.1px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: all 500ms linear 0.2s;
+  z-index: 1;
+}
+.nav-collection{
+  margin: 5px 120px 0 0;
+}
+.nav-item{
+  margin-right: 10px;
+}
+.nav-link{
+  font-size: 17px
+}
+ul li a{
+  color: white !important;
+}
+ul li a:hover{
+  color: #F58634 !important;
+}
+.act{
+  background-color: #F58634;
+  border-radius: 3px solid transparent;
+  border-radius: 5px;
+  text-align: center;
+  width: 100px;
+}
+.act:hover{
+  background-color: #F58634;
+  color: rgb(227, 227, 227) !important;
+}
+.mif{
+  margin-top: 70px;
+}
+.title{
+  color: white;
+  margin-top: 50px;
+}
+.myb{
+  margin-left: 10px !important;
+}
+.mybtn{
+  background-color: #F58634;
+}
+.mybtn:hover{
+  color: black !important;
+}
+.what-we-do{
+  background: #eee;
+  padding-bottom: 30px;
+}
+.cont{
+  padding: 10px;
+}
+hr{
+  margin: 0 22px;
+}
+.sub-head{
+  margin: 0 10px;
+  padding-bottom: 10px;
+}
+.read-link{
+  text-decoration: none;
+  color: black;
+  background: white;
+  border: 2px solid #F58634;
+  border-radius: 20px;
+  padding: 9px 30px !important;
+  margin-top: 20px;
+}
+.read-link:hover{
+  background: #F58634;
+  color: white;
+  transition: all 150ms linear;
+}
+.fa{
+  font-size: 40px;
+  color: #F58634;
+  font-weight: bold;
+  margin: 15px;
+}
+.line{
+  margin: 0 auto;
+  opacity: 1;
+}
+.a-link{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fc9c58;
+}
+.a-link:hover{
+  color: #ff6a00;
+}
+.course-link{
+  text-decoration: none;
+  color: black;
+  border: 2px solid #F58634;
+  border-radius: 20px;
+  padding: 9px 30px !important;
+}
+.course-link:hover{
+  background: #F58634;
+  color: white;
+  transition: all 150ms linear;
+}
+.intern{
+  background-color: #eee;
+}
+.acad{
+  transform: translateX(-11px);
+}
+#footer{
+  background-color: black;
+  color: white;
+}
+.help-link{
+  text-decoration: none;
+  color: white;
+}
+.help-link:hover{
+  color: #F58634;
+}
+.foot-line{
+  opacity: 1;
+  width: 100%;
+  margin: 0 auto;
+}
+.input{
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+}
+.subscribe{
+  border: none;
+  border-radius: 0;
+  box-shadow: none !important;
+  background-color: #F58634 !important;
+  color: white;
+}
+.footer-icons .fa{
+  font-size: 25px !important;
+  color: white;
+  margin: 0 !important;
+}
+.footer-icons .fa:hover{
+  color: #F58634;
+}
+.footer-line{
+  display: none;
+  opacity: 0.5;
+  width: 100%;
+  margin: 0 auto;
+}
+.footers-line{
+  opacity: 1;
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (max-width:1000px){
+  .footer-line{
+    display:  block;
+    opacity: 1;
+  }
+}
+@media screen and (max-width:600px){
+  .footer-line{
+    display:  none;
+  }
+}
+@media screen and (max-width:400px){
+  .goaway{
+    transition: all 500ms linear;
+    display:  none !important;
+  }
+}
+@media screen and (max-width:992px){
+  /* #navbarNav{
+    background-color: darkblue;
+    width: 100%;
+  } */
+  .nav-item a{
+    transition: all 400ms linear;
+    color:  black !important;
+    font-size: 20px;
+    padding: 10px 0 !important;
+  }
+}
+@media screen and (max-width:300px){
+  .bgimg, .section-1{
+    height: 820px;
+  }
+  .read-link, .course-link{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:200px){
+  .read-link, .course-link{
+    font-size: 7px;
+  }
+  .logo-img{
+    width: 80px;
+    height: 80px;
+  }
+  .button{
+    font-size: 15px !important;
+  }
+}
