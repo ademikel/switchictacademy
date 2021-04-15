@@ -1,11 +1,14 @@
 var navbar = document.querySelector(".navbar");
+var nav = document.querySelector(".navbar-nav");
 window.onscroll = function() {scroll()};
 function scroll() {
     if (window.scrollY > 0) {
         navbar.classList.add("sticky");
+        nav.classList.add("change-color");
     } 
     else {
         navbar.classList.remove("sticky"); 
+        nav.classList.remove("change-color");
     }
 }
 window.sr=ScrollReveal();
