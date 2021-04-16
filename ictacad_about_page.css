@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+body,html{
+  font-family: 'Nunito Sans', sans-serif;
+}
+.logo-img{
+  height: 100px;
+  width: 120px;
+  margin-left: 10px;
+}
